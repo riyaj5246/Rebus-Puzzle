@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="rebusCSS.css">
+    <script src="rebusJS.js"></script>
+
+</head>
+<h1> Rebus Puzzles! </h1>
+<body>
+    <div id = "pict" class="grid" style = "background-image: url('resources/start.jpg'); background-repeat: no-repeat; background-size: 100%">
+        <button type="button" onclick="quest(this.id,100)" id = "b1">100</button>
+        <button type="button" onclick="quest(this.id,200)" id = "b2">200</button>
+        <button type="button" onclick="quest(this.id,100)" id = "b3">100</button>
+        <button type="button" onclick="quest(this.id,300)" id = "b4">300</button>
+        <button type="button" onclick="quest(this.id,400)" id = "b5">400</button>
+        <button type="button" onclick="quest(this.id,300)" id = "b6">300</button>
+        <button type="button" onclick="quest(this.id,100)" id = "b7">100</button>
+        <button type="button" onclick="quest(this.id,200)" id = "b8">200</button>
+        <button type="button" onclick="quest(this.id,100)" id = "b9">100</button>
+
+    </div>
+    <br>
+    <button type="button" onclick="start()">click me to start</button>
+    <p id = "word">word will appear here</p>
+    <p id = "points">points appear here</p>
+    <p id = "gold">gold displayed here</p>
+    <button type="button" onclick="hint()">hint</button>
+    <button type="button" onclick="start()"> new puzzle </button>
+    <button type="button" onclick="guessPuzzle()">Click me to guess the puzzle</button>
+    <p id = "score"></p>
+<p> Puzzles successfully completed: </p>
+<img id = "1" src="resources/alloveragain.gif" style = "visibility: hidden">
+<img id = "2" src="resources/firstaid.gif" style = "visibility: hidden">
+<img id = "3" src="resources/splitpersonality.gif" style = "visibility: hidden">
+<img id = "4" src="resources/summary.gif" style = "visibility: hidden">
+<img id = "5" src="resources/thunderstorm.gif" style = "visibility: hidden">
+    <br>
+<img id = "6" src="resources/breakfast.gif" style = "visibility: hidden">
+<img id = "7" src="resources/onceinabluemoon.gif" style = "visibility: hidden">
+<img id = "8" src="resources/painlessoperation.gif" style = "visibility: hidden">
+<img id = "9" src="resources/tickledpink.gif" style = "visibility: hidden">
+<img id = "10" src="resources/topsecret.gif" style = "visibility: hidden">
+</body>
+</html>
